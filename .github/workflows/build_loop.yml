@@ -286,6 +286,9 @@ jobs:
           # Copy url from a GitHub commit or pull request and insert below, and remove the "#" sign from the beginning of the line to activate:
           #curl url_to_github_commit.patch | git apply --directory=LoopKit -v --whitespace=fix
 
+          #LoopKit: rolfkr-n-patch-1 : Endring av Lyumjev verdier
+          curl https://github.com/rolfkr-n/LoopKit/commit/8e7258214325ac9c6ce98d6c2e526fabb11db3a6.patch | git apply -v --directory=LoopKit -v --whitespace=fix
+
           # Submodule xxxxx patches:
 
           # Add patches for customization of additional submodules by following the templates above, 
