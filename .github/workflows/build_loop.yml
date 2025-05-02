@@ -275,9 +275,7 @@ jobs:
           meal_week \
           2002 \
           basal_lock \
-          negative_insulin \
-          bolus_display \
-          g7_scan
+          negative_insulin
 
           # LoopWorkspace patches
           # -applies any patches located in the LoopWorkspace/patches/ directory
